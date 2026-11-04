@@ -1,0 +1,25 @@
+# RetroAchievements login for SMS/GG recompilations.
+#
+# HOW TO ENABLE:
+#  1. Copy this file to "retroachievements.toml" (same folder as the
+#     game executable).
+#  2. Get your Connect token: log in at retroachievements.org, go to
+#     Settings and copy your Connect API token. (Use the token, NEVER
+#     your password. The token can be revoked anytime from the same
+#     page.)
+#  3. Fill in your username and token below, save, and restart the
+#     game.
+#  4. Achievements unlock in-game and on your RetroAchievements
+#     profile.
+#
+# If this file is absent (or username/token are blank),
+# RetroAchievements simply stays off and the game runs normally.
+#
+# hardcore: false = normal mode. true = hardcore mode (RA rules: no
+# cheats/savestates; the game may reset when toggled). Note that RA
+# counts unlocks from recomp clients as Casual (softcore) regardless,
+# because the service only honours hardcore from approved clients.
+
+username = "YOUR_USERNAME"
+api_token = "<redacted>"
+hardcore = false
